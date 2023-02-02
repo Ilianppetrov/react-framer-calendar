@@ -51,7 +51,7 @@ export default function Days({
     : -1;
 
   const days = eachDayOfInterval({
-    start: startOfWeek(firstDayCurrentMonth),
+    start: firstDayCurrentMonth,
     end: endOfWeek(endOfMonth(firstDayCurrentMonth)),
   });
 
